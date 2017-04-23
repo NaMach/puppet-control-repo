@@ -7,7 +7,7 @@ forge "http://forge.puppetlabs.com"
 #mod "puppetlabs/concat",      '2.1.0'
 mod 'puppetlabs-java', '1.6.0'
 mod 'puppetlabs-mysql', '3.10.0'
-mod 'puppetlabs-apache', '1.11.0'
+#mod 'puppetlabs-apache', '1.11.0'
 
 
 # Modules from Git
@@ -16,6 +16,6 @@ mod 'puppetlabs-apache', '1.11.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
 
-#mod 'apache',
-#  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
-#  :branch => 'docs_experiment'
+mod 'apache',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
+  :branch => 'docs_experiment'
